@@ -124,3 +124,23 @@ def contact_book():
 
 if __name__ == "__main__":
     contact_book()
+
+
+"""I'm including the AI prompt for how I had visualized the program:
+I need to create a python file of a Contact Book. It has 5 inputs: Add\n
+a New Contact, View All Contacts, Search for a Contact, Delete a Contact, \n
+and Exit. The first function is titled menu(). It contains a print out as \n
+follows: 1. Add a New Contact 2. View All Contacts 3. Search for a Contact \n
+4. Delete a Contact 5. Exit. The second function is titled new_contact().\n
+The function takes inputs and puts them into a dictionary. The first input\n
+is a name and is input into the key. The second input is the telephone number\n
+and is input into the value. The number is stored into a dictionary for other\n
+functions to access. The third function is titled view_all_contacts(). It\n
+gives a view of all contacts stored into the dictionary so far. The fourth\n
+function is titled search_contact(). It allows the user to search and check\n
+if the name and telephone number are in the dictionary. The fifth function is\n
+titled del_contact(). This function allows user to delete a key and value from\n
+the dictionary. The sixth function is titled exit(). This function allows the\n
+user to exit from the Contact Book. The seventh function is titled contact_book().\n
+This function contains within it the first, second, third, fourth, fifth, and sixth\n
+functions inside it."""
